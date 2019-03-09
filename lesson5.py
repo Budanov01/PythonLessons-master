@@ -100,7 +100,7 @@ def show_face():
         except ValueError:
             continue
         if v == 'v':
-            x, z = turn(120, float(x), float(z))  # вызов функции умножения координат на матрицу поворота
+            x, z = turn(60, float(x), float(z))  # вызов функции умножения координат на матрицу поворота
             x = int((float(x) + 1) * half_scr_x)
             y = int((float(y) + 1) * half_scr_y)
             z = float(z) + 1
